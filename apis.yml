@@ -95,6 +95,8 @@ apis:
         url: https://tjx.supplierone.co/
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/tjx
   - type: Website
     url: https://www.tjx.com/
   - type: Documentation
