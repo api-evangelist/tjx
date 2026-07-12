@@ -95,6 +95,8 @@ apis:
         url: https://tjx.supplierone.co/
 
 common:
+  - type: DomainSecurity
+    url: security/tjx-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/tjx
   - type: Website
