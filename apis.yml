@@ -10,9 +10,21 @@ description: >-
   is handled via Oracle iSupplier, SupplierOne, and the DiCentral ASN Vendor Portal,
   supporting purchase orders, advanced shipping notices, invoicing, and payment tracking.
 type: Index
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tjx.png
 tags:
   - Retail
   - Off-Price
@@ -20,29 +32,11 @@ tags:
   - Supply Chain
   - EDI
 created: '2024-11-27'
-modified: '2026-05-03'
+modified: '2026-07-25'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/tjx/refs/heads/main/apis.yml
 specificationVersion: '0.19'
 apis:
-  - aid: tjx:tjx-isupplier
-    name: TJX Oracle iSupplier Portal
-    description: >-
-      The TJX Oracle iSupplier portal allows not-for-resale suppliers to manage
-      purchase orders, track invoices, monitor payment status, and handle deduction
-      disputes. Suppliers can access real-time account activity and submit invoices
-      electronically via integration with Transcepta. Available to approved TJX
-      suppliers via login credentials.
-    humanURL: https://www.mytjx.com/mytjx/supplier.html
-    tags:
-      - Supplier Portal
-      - Oracle
-      - Invoicing
-      - Purchase Orders
-    properties:
-      - type: Documentation
-        url: https://www.tjx.com/mytjx/supplier/files/iSupplier-User-Guide-EN.pdf
-
   - aid: tjx:tjx-edi
     name: TJX EDI Integration
     description: >-
@@ -60,23 +54,6 @@ apis:
     properties:
       - type: Documentation
         url: https://www.spscommerce.com/network/find-a-partner/view/the-tjx-companies-inc/
-
-  - aid: tjx:tjx-asn-vendor-portal
-    name: TJX ASN Vendor Portal
-    description: >-
-      The TJX Companies LLC Advanced Shipping Notice (ASN) Vendor Portal powered
-      by DiCentral allows resale vendors to create and submit advance shipping
-      notices, manage compliance requirements, and handle electronic transaction
-      processing for shipments to TJX distribution centers.
-    humanURL: https://diweb.dicentral.com/tjx/SignUp/GetStarted.aspx
-    tags:
-      - ASN
-      - Shipping
-      - Vendors
-      - DiCentral
-    properties:
-      - type: Documentation
-        url: https://diweb.dicentral.com/tjx/SignUp/GetStarted.aspx
 
   - aid: tjx:tjx-supplierone
     name: TJX SupplierOne Diversity Portal
@@ -151,6 +128,8 @@ common:
         description: Oracle-based supplier portal for invoice management and purchase order tracking.
       - name: Cleo
         description: EDI integration solution for TJX trading partner compliance.
+  - type: Suppliers
+    url: https://diweb.dicentral.com/tjx/SignUp/GetStarted.aspx
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

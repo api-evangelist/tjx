@@ -16,10 +16,6 @@ The TJX Companies, Inc. is an American multinational off-price department store 
 
 ## APIs
 
-### TJX Oracle iSupplier Portal
-The TJX Oracle iSupplier portal allows not-for-resale suppliers to manage purchase orders, track invoices, monitor payment status, and handle deduction disputes. Suppliers can access real-time account activity and submit invoices electronically via integration with Transcepta. Available to approved TJX suppliers via login credentials.
-
-**Human URL:** [https://www.mytjx.com/mytjx/supplier.html](https://www.mytjx.com/mytjx/supplier.html)
 
 #### Tags:
 
@@ -42,10 +38,6 @@ TJX Companies requires EDI compliance for all resale vendors, supporting purchas
 
 - [Documentation](https://www.spscommerce.com/network/find-a-partner/view/the-tjx-companies-inc/)
 
-### TJX ASN Vendor Portal
-The TJX Companies LLC Advanced Shipping Notice (ASN) Vendor Portal powered by DiCentral allows resale vendors to create and submit advance shipping notices, manage compliance requirements, and handle electronic transaction processing for shipments to TJX distribution centers.
-
-**Human URL:** [https://diweb.dicentral.com/tjx/SignUp/GetStarted.aspx](https://diweb.dicentral.com/tjx/SignUp/GetStarted.aspx)
 
 #### Tags:
 
@@ -55,10 +47,6 @@ The TJX Companies LLC Advanced Shipping Notice (ASN) Vendor Portal powered by Di
 
 - [Documentation](https://diweb.dicentral.com/tjx/SignUp/GetStarted.aspx)
 
-### TJX SupplierOne Diversity Portal
-The TJX SupplierOne portal enables diverse supplier registration, certification tracking, and quarterly Tier II program reporting. Suppliers can complete vendor applications, provide business documentation and certifications, and participate in TJX's supplier diversity program.
-
-**Human URL:** [https://tjx.supplierone.co/](https://tjx.supplierone.co/)
 
 #### Tags:
 
