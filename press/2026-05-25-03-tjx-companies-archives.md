@@ -1,7 +1,9 @@
 ---
 title: TJX Companies Archives
 url: https://www.intelligize.com/tag/tjx-companies/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"TJX" press release artificial intelligence'
 position: 3
 source: serpapi-google
