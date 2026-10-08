@@ -83,6 +83,12 @@ apis:
         url: https://tjx.supplierone.co/
 
 common:
+  - type: Plans
+    url: plans/tjx-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/tjx-rate-limits.yml
+  - type: FinOps
+    url: finops/tjx-finops.yml
   - type: DomainSecurity
     url: security/tjx-domain-security.yml
   - type: LinkedIn
